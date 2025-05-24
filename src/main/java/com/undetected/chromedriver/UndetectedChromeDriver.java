@@ -190,6 +190,7 @@ public class UndetectedChromeDriver extends ChromeDriver {
      *
      * @return the bot detection handler
      */
+    @Getter
     private final BotDetectionHandler botDetectionHandler;
 
     /**
